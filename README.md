@@ -3,7 +3,7 @@
 ## Project Overview
 The house price prediction project aims to estimate the price of a house based on various features using machine learning algorithms. This repository contains the code and resources required to train and evaluate models for predicting house prices.
 
-##Table of Contents
+## Table of Contents
 - Introduction
 - Requirements
 - Data Description
@@ -19,21 +19,20 @@ This project uses machine learning techniques to predict house prices based on v
 
 ## Requirements
 Ensure you have the following libraries installed:
-- numpy
-- pandas
-- scikit-learn
-- matplotlib
-- seaborn
-You can install the required packages using pip:
-pip install numpy pandas scikit-learn matplotlib seaborn
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+- You can install the required packages using pip: pip install numpy pandas scikit-learn matplotlib seaborn
 
 ## Data Description
 The dataset used for this project consists of the following columns:
-- Feature1: Description of Feature1
-- Feature2: Description of Feature2
-- Feature3: Description of Feature3
-- Price: Target variable - Price of the house
-Note: Replace "Feature1", "Feature2", etc., with actual feature names and descriptions relevant to your dataset.
+  - Feature1: Description of Feature1
+  - Feature2: Description of Feature2
+  - Feature3: Description of Feature3
+  - Price: Target variable - Price of the house
+- Note: Replace "Feature1", "Feature2", etc., with actual feature names and descriptions relevant to your dataset.
 
 ## Code Structure
 The code is organized into the following files:
@@ -45,14 +44,10 @@ The code is organized into the following files:
 
 ## Usage
 To run the project, follow these steps:
-- Data Preprocessing:
-python data_preprocessing.py
-- Model Training:
-python model_training.py
-- Model Evaluation:
-python model_evaluation.py
-- Visualization:
-python visualization.py
+- Data Preprocessing: python data_preprocessing.py
+- Model Training: python model_training.py
+- Model Evaluation: python model_evaluation.py
+- Visualization: python visualization.py
 
 ## Model Training and Evaluation
 - Linear Regression:
@@ -63,9 +58,9 @@ python visualization.py
   - Evaluate using the same metrics as above.
 
 ## Results
-- Linear Regression: Provide summary statistics, performance metrics, and any relevant insights.
-- Gradient Boosting Regressor: Provide summary statistics, performance metrics, and any relevant insights.
-Note: Include specific results, graphs, or tables here based on your actual findings.
+  - Linear Regression: Provide summary statistics, performance metrics, and any relevant insights.
+  - Gradient Boosting Regressor: Provide summary statistics, performance metrics, and any relevant insights.
+- Note: Include specific results, graphs, or tables here based on your actual findings.
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. Ensure that your code follows the existing style and includes appropriate tests.
